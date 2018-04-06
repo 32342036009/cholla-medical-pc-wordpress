@@ -1,0 +1,1200 @@
+/*
+Theme Name: cholla-medical
+Theme URI: https://wordpress.org/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans",sans-serif;
+  background: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/body-pattern.png") left top repeat;
+}
+
+*::-moz-selection {
+  background: #fcd700 none repeat scroll 0 0;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+::selection {
+    background: #fcd700;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+.south-office address{
+  color: #3e3f3f;
+  font: italic 1.2em/20px "Open Sans",sans-serif;
+  margin-bottom: 5px;
+}
+
+.inner-page-left p.rmove-marg{
+  margin-bottom: 0;
+}
+
+.south-office h3{
+  color: #6d1d1d;
+    font-size: 1.325em;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.south-office p{
+  margin-bottom: 25px;
+}
+
+.inner-page-left h6{
+  font-size: 1.575em;
+  color: #3e3f3f;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+
+.staff-wrk {
+  float: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.staff-left {
+  float: left;
+  width: 30%;
+}
+
+.staff-right {
+  float: right;
+  width: 65%;
+}
+
+.staff-left img {
+  height: auto;
+  width: 100%;
+}
+
+.inner-page-left.staff-wrking{
+  float: left;
+}
+
+.inner-page-left {
+  float: none;
+}
+
+.staff-right > h4 {
+  font-size: 20px;
+  margin-top: 0;
+  font: 1.52em "Open Sans Condensed",sans-serif;
+  color: #333333;
+}
+
+.inner-page-left ul{
+  list-style: outside none square;
+}
+
+.inner-page-left ul {
+    list-style-type: square !important;
+}
+
+.inner-page-left ul ol {
+    list-style: square !important;
+}
+
+.inner-page-left ul ol {
+  list-style: outside none square;
+}
+
+.inner-page-left ul li{
+  color: #3e3f3f;
+    font: 1.13em/1.4em "Open Sans",sans-serif;
+    line-height: 24px;
+}
+
+.inner-page-left ul li ol li{
+    color: #3e3f3f;
+    font: 1em/1.4em "Open Sans",sans-serif;
+    line-height: 24px;
+}
+
+.inner-page-left ol li{
+    color: #3e3f3f;
+    font: 1.13em/1.4em "Open Sans",sans-serif;
+    line-height: 24px;
+}
+
+p{
+  color: #3e3f3f;
+  font: 1em/1.4em "Open Sans",sans-serif;
+}
+
+.location-common{
+  margin-bottom: 20px;
+}
+
+.location-common img{
+  width: 100%;
+}
+
+.head-top-main{
+  padding-top: 20px;
+  padding-bottom: 38px;
+  background: #fff;
+}
+
+.header-top-right{
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+
+.header-top-right h4{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.header-top-right p{
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.header-top-right a {
+  background-color: #90633b;
+  border-radius: 10px;
+  color: #ffffff;
+  display: block;
+  height: 93px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+  width: 207px;
+  float: right;
+  box-shadow: 1px 1px 3px #444444;
+  font-family: "Open Sans Condensed",sans-serif;
+}
+
+.header-top-right a:hover{
+  text-decoration: none;
+  background-color: #1e90ff;
+}
+
+.header-bottom-right{
+  text-align: right;
+  margin-top: 22px;
+  float: left;
+  width: 100%;
+}
+
+.header-bottom-right h4{
+  font-family: "Open Sans",sans-serif;
+    color: #6d1d1d;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-bottom-right h4 a{
+  color: #6d1d1d;
+}
+
+.header-bottom-right h4 a:hover{
+  text-decoration: none;
+}
+
+.navbar-inverse {
+  background-color: #167ee3;
+  border: none;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.cholla-nav{
+  background-color: #1e90ff;
+  text-align: center;
+  position: relative;
+}
+
+.cholla-nav ul{
+
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.cholla-nav ul li:first-child{
+  background: none;
+}
+
+.cholla-nav ul li{
+  background: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/nav-border.jpg") left top no-repeat;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-left: 3px;
+  padding-left: 19px;
+  padding-right: 19px;
+  transition: all 0.5s ease 0s;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+  background: #167ee3;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.cholla-nav {
+  margin-top: -15px;
+}
+
+.slider-main{
+    margin-top: -15px;
+}
+
+
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+} 
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+} 
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:17px
+}
+.carousel-caption h3 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+a.left.carousel-control {
+  background-image: none;
+  cursor: auto;
+}
+
+a.right.carousel-control {
+  background-image: none;
+  cursor: auto;
+}
+
+.carousel {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cholla-nav::after {
+  border-color: rgba(0, 0, 0, 0) #075eb1 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 0 28px 14px 0;
+  height: 0;
+  left: 0;
+  opacity: 0.7;
+  position: absolute;
+  width: 0;
+}
+
+.cholla-nav::before {
+  border-color: #075eb1 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 15px 27px 0 0;
+  bottom: -15px;
+  height: 0;
+  opacity: 0.7;
+  position: absolute;
+  right: 0;
+  width: 0;
+}
+
+.container.cholla-nav {
+  width: 1005px;
+}
+
+.carousel-caption {
+  float: left;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.slider-main .carousel-caption{
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.slider-main .carousel-caption h3 {
+  color: #ffffff;
+  margin-top: 12px;
+  border-bottom: 3px solid #1e90ff;
+  font-family: "Open Sans Condensed",sans-serif;
+  font-size: 1.6em;
+  text-align: left;
+  margin-top: 12px;
+  padding: 0 0 12px 20px;
+  text-shadow: none;
+}
+
+.we-look {
+  float: left;
+  width: 100%;
+}
+
+.we-look-left {
+  float: left;
+  width: 60%;
+}
+
+.we-look-left h5 {
+  color: #ffffff;
+  font: 300 1.1em "Open Sans",sans-serif;
+  margin: 10px 0 0 20px;
+  text-align: left;
+  text-shadow: none;
+}
+
+
+.we-look-right {
+  float: left;
+  width: 40%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.we-look-right a {
+  background: #90633b none repeat scroll 0 0;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px #444444;
+  padding: 12px 30px 10px;
+  transition: all 0.5s ease 0s;
+  letter-spacing: 1px;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  font-family: "Open Sans Condensed",sans-serif;
+  font-size: 1.5em;
+  margin-top: 11px;
+  text-shadow: none;
+}
+
+.we-look-right a:hover{
+  background: #1e90ff;
+}
+
+.section-main{
+  text-align: center;
+  padding: 0px;
+}
+
+.section-wrk-main {
+  background: #ffffff none repeat scroll 0 0;
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 96%;
+    padding-top: 39px;
+    text-align: left;
+    padding-bottom: 49px;
+}
+
+.section-wrk-main h2{
+  margin-top: 0;
+  border-bottom: 3px solid #73502d;
+  font: 1.75em "Open Sans Condensed",sans-serif;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+}
+
+.quick-links{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quick-links ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 8px;
+}
+
+.quick-links ul li {
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+.quick-links ul li:nth-child(1) a{
+    background-image: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/user-plus.png");
+    background-position: 11px center;
+    background-repeat: no-repeat;
+}
+
+.quick-links ul li:nth-child(2) a{
+    background-image: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/check.png");
+    background-position: 11px center;
+    background-repeat: no-repeat;
+}
+
+.quick-links ul li:nth-child(3) a{
+    background-image: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/star.png");
+    background-position: 11px center;
+    background-repeat: no-repeat;
+}
+
+.quick-links ul li:nth-child(4) a{
+    background-image: url("http://webdesigndemo1.com/cholla-medical/wp-content/themes/cholla-medical/assets/images/user-plus.png");
+    background-position: 11px center;
+    background-repeat: no-repeat;
+}
+
+.quick-links ul li a {
+    background-color: #90633b;
+  background-position: 8px 8px;
+  border-radius: 9px;
+  color: #ffffff;
+  display: block;
+  font-family: "Open Sans Condensed";
+  font-size: 18px;
+  padding: 12px 6px 16px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.5s ease 0s;
+}
+
+.quick-links ul li a:hover{
+  background-color: #1e90ff;
+}
+
+.our-mission{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.our-mission p span{
+  font-weight: 700;
+}
+
+.our-mission h6{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12px;
+  text-align: left;
+  line-height: 18px;
+}
+
+.our-mission p.txt-center{
+  text-align: left;
+}
+
+.our-mission a{
+  color: #90633b;
+  text-decoration: underline;
+  margin-top: 15px;
+  display: block;
+}
+
+.our-mission a:hover{
+  color: #1e90ff;
+}
+
+.partner-health{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+.footer-main{
+  text-align: center;
+    margin-top: -5px;
+    position: relative;
+}
+
+.foot-main-wrk{
+  margin: 0 auto;
+  width: 99%;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+    background: #167ee3;
+    padding-bottom: 24px;
+}
+
+.foot-main-left{
+  color: #fff;
+}
+
+
+.foot-main-left ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-main-left ul li:first-child{
+  margin-left: 0;
+}
+
+.foot-main-left ul li{
+  display: inline-block;
+    margin: 28px 9px 0 9px;
+    text-align: center;
+    color: #fff;
+}
+
+.foot-main-left ul li a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.foot-main-right{
+  text-align: right;
+  margin-top: 28px;
+}
+
+.foot-main-right p{
+  color: #fff;
+  margin-bottom: 0;
+}
+
+
+#footer-strip {
+  background: #1c1c1b none repeat scroll 0 0;
+  height: 15px;
+  margin-top: -27px;
+  position: relative;
+}
+
+.footer-strip{
+    background: #1c1c1b none repeat scroll 0 0;
+  height: 15px;
+  width: 100%;
+  float: left;
+  margin-top: -15px;
+
+}
+
+
+.inner-page-main{
+  text-align: center;
+}
+
+.inner-page-main p{
+  margin-bottom: 25px;
+  color: #3e3f3f;
+  font: 1.13em/1.4em "Open Sans",sans-serif;
+}
+
+.inner-page-common {
+  background: #3f3f3f none repeat scroll 0 0;
+  margin: 0 auto;
+  text-align: left;
+  top: -15px;
+  width: 99%;
+  position: relative;
+}
+
+.inner-page-left{
+
+}
+
+
+.footer-main.footer-inner-common {
+  margin-top: -15px;
+}
+
+
+.footer-main.footer-inner-common ul li{
+  margin: 15px 9px 0;
+}
+
+.footer-main.footer-inner-common .foot-main-right {
+  margin-top: 15px;
+}
+
+
+.inner-page-left {
+  background: #ffffff none repeat scroll 0 0;
+  min-height: 700px;
+  padding: 25px 71px 30px 24px;
+}
+
+.inner-page-left h2{
+  border-bottom: 3px solid #1e90ff;
+  margin-bottom: 25px;
+  font: 2em "Open Sans Condensed",sans-serif;
+  color: #3e3f3f;
+  margin-top: 0;
+}
+
+.inner-page-left p a{
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+
+.inner-page-right {
+  color: #ffffff;
+  padding: 25px 90px 0 0;
+}
+
+.inner-page-right ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inner-page-right ul li{
+    padding: 10px 0 10px 14px;
+  position: relative;
+}
+
+.inner-page-right ul li a {
+  color: #ffffff;
+  font: 600 1.3em "Open Sans",sans-serif;
+  text-decoration: none;
+}
+
+.location-wrk{
+  width: 100%;
+}
+
+.location-wrk img{
+  border: 3px solid #ffffff;
+  box-shadow: 1px 1px 3px #aaaaaa;
+}
+
+.location-wrk h3 {
+  font-size: 1.125em;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.location-wrk h3 a{
+  transition: color 0.5s ease 0s;
+  font-size: 1.125em;
+  font-family: "Open Sans",sans-serif;
+  color: #73502d;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.location-wrk p{
+  color: #3e3f3f;
+  font: 1.2em/1.4em "Open Sans",sans-serif;
+  font-style: italic;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.location-wrk .view-details{
+  width: 100%;
+  float: left;
+}
+
+.location-wrk .view-details a{
+  color: #e08026;
+  transition: color 0.5s ease 0s;
+  color: #73502d;
+  font: 1.2em/1.4em "Open Sans",sans-serif;
+  margin-top: 0;
+  display: block;
+  text-decoration: underline;
+}
+
+.wpb_text_column.wpb_content_element.inner-page-left {
+	margin-bottom: 0px;
+}
+
+.south-office iframe {
+  width: 100%;
+  height: 350px;
+}
+
+
+@media (min-width: 1200px){
+
+  .container{
+    width: 990px;
+  }
+
+}
+
+@media (max-width: 1199px ){
+
+  .navbar {
+    min-height: auto;
+  }
+
+  .container.cholla-nav {
+  margin: -15px auto 0;
+  width: 97%;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+  padding-left: 14px;
+  padding-right: 14px;
+  }
+
+  .container.section-main {
+  width: 100%;
+  }
+
+.section-wrk-main {
+  width: 95.9%;
+}
+
+.carousel-inner {
+  margin: 0 auto;
+  width: 99.2%;
+}
+
+.container.common-footer-container {
+  width: 100%;
+}
+
+.inner-page-main {
+  width: 100%;
+}
+
+.inner-page-common {
+  top: 0;
+}
+
+.slider-main {
+  width: 97.5%;
+}
+
+.slider-main img {
+  width: 100%;
+}
+
+.south-office iframe {
+  width: 100%;
+  height: 250px;
+}
+
+}
+
+
+@media (max-width: 991px ){
+
+
+
+
+  .south-office img{
+    width: 100%;
+  }
+
+  .we-look-right a {
+  font-size: 1.3em;
+  padding: 5px 12px 10px;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+
+  .header-logo img{
+    width: 100%;
+  }
+
+  .footer-main.footer-inner-common ul li {
+    margin: 15px 0 0;
+  }
+
+  .foot-main-left ul li a {
+  font-size: 12px;
+  }
+
+  .foot-main-left ul li {
+  margin: 28px 0 0;
+  }
+
+  .foot-main-right p {
+  font-size: 12px;
+  }
+
+  .quick-links ul li a {
+  font-size: 15px;
+  padding: 12px 6px 16px 38px;
+  }
+
+  .quick-links ul li:nth-child(1) a {
+  background-size: 12%;
+  }
+
+  .quick-links ul li:nth-child(2) a {
+  background-size: 10%;
+  }
+
+  .quick-links ul li:nth-child(3) a {
+  background-size: 12%;
+  }
+
+  .quick-links ul li:nth-child(4) a {
+  background-size: 12%;
+  }
+
+  .section-wrk-main h2 {
+  font: 1.5em "Open Sans Condensed",sans-serif;
+  }
+
+  .section-wrk-main {
+  width: 94.8%;
+  }
+
+  .slider-main {
+  width: 96.8%;
+  }
+
+    .our-mission h6 {
+  text-align: left;
+  }
+
+  .our-mission p.txt-center {
+  text-align: left;
+  }
+
+    .cholla-nav::before{
+    display: none;
+  }
+
+  .cholla-nav::after{
+    display: none;
+  }
+
+  .slider-main {
+  margin-top: 0;
+  }
+
+  .container.cholla-nav {
+  margin: 0 auto 0;
+  width: 100%;
+}
+.south-office img {
+  height: auto;
+  width: 100%;
+}
+
+
+}
+
+@media (max-width: 767px ){
+
+
+
+
+.staff-left {
+  float: left;
+  width: 100%;
+}
+
+.staff-right {
+  margin-top: 15px;
+  width: 100%;
+}
+
+
+  .header-logo {
+  text-align: center;
+  }
+
+  .header-logo img {
+  max-width: 250px;
+  }
+
+  .header-top-right {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .header-top-right a {
+  float: none;
+  margin: 0 auto;
+  }
+
+  .header-bottom-right {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+  .header-bottom-right h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+  }
+
+  .cholla-nav ul li {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  display: block;
+  }
+
+  .navbar-nav {
+  margin: 0;
+  }
+
+  .navbar-nav > li {
+  border-bottom: 1px solid #1061ad;
+  }
+
+  .container.cholla-nav {
+  margin: 0 auto;
+  width: 100%;
+  }
+
+  .cholla-nav::before{
+    display: none;
+  }
+
+  .cholla-nav::after{
+    display: none;
+  }
+
+  .slider-main {
+  margin-top: 0;
+  }
+
+  .we-look-left h5 {
+  display: none;
+  }
+
+  .slider-main .carousel-caption h3 {
+  font-size: 16px;
+  }
+
+  .we-look-right {
+  padding-right: 0;
+  text-align: center;
+  width: 100%;
+  }
+
+.we-look-right a {
+  font-size: 15px;
+  margin: 5px 0 0;
+  padding: 7px 20px;
+}
+
+.slider-main .carousel-caption h3 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-left: 0;
+  text-align: center;
+}
+
+.slider-main .carousel-caption {
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+.carousel-inner {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-wrk-main {
+  padding: 15px 0;
+  width: 97%;
+}
+
+.section-wrk-main h2 {
+  font: 1.7em "Open Sans Condensed",sans-serif;
+}
+
+.quick-links ul li {
+  margin-bottom: 15px;
+}
+
+.container.common-footer-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.foot-main-wrk {
+  padding-top: 10px;
+  width: 97%;
+}
+
+.foot-main-left ul li {
+  display: block;
+  margin: 13px 0 0;
+  text-align: left;
+}
+
+.foot-main-left ul li a {
+  font-size: 14px;
+}
+
+.foot-main-right p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-wrk-main h2 {
+  padding-top: 10px;
+}
+
+
+.inner-page-main {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.inner-page-common{
+  width: 97%;
+}
+
+.inner-page-right {
+  padding: 15px;
+}
+
+.inner-page-left {
+  padding: 25px 15px 50px;
+  min-height: initial;
+}
+
+.inner-page-left h2 {
+  font: 1.7em "Open Sans Condensed",sans-serif;
+  margin-bottom: 15px;
+}
+
+.inner-page-right ul li {
+  padding: 6px 0 6px 14px;
+}
+
+.inner-page-right ul li a {
+  font: 600 1.2em "Open Sans",sans-serif;
+}
+
+.inner-page-main p {
+  font: 1em/1.6em "Open Sans",sans-serif;
+  margin-bottom: 15px;
+}
+
+.location-wrk img {
+  width: 100%;
+}
+
+.footer-main.footer-inner-common {
+  margin-top: 0;
+}
+
+
+  .quick-links ul li:nth-child(1) a {
+  background-size: 4%;
+  }
+
+  .quick-links ul li:nth-child(2) a {
+  background-size: 4%;
+  }
+
+  .quick-links ul li:nth-child(3) a {
+  background-size: 4%;
+  }
+
+  .quick-links ul li:nth-child(4) a {
+  background-size: 4%;
+  }
+
+  .our-mission h6 {
+  text-align: left;
+  }
+
+  .our-mission p.txt-center {
+  text-align: left;
+  }
+
+
+}
+
+
+@media (max-width: 360px ){
+
+    .quick-links ul li:nth-child(1) a {
+  background-size: 10%;
+  }
+
+  .quick-links ul li:nth-child(2) a {
+  background-size: 8%;
+  }
+
+  .quick-links ul li:nth-child(3) a {
+  background-size: 10%;
+  }
+
+  .quick-links ul li:nth-child(4) a {
+  background-size: 10%;
+  }
+
+}
+
+
